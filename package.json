@@ -1,7 +1,7 @@
 {
   "name": "watchme",
   "version": "1.0.0",
-  "description": "A watcher process to restart node app",
+  "description": "Watcher process to restart node app",
   "main": "index.js",
   "private": true,
   "scripts": {

@@ -1,0 +1,21 @@
+{
+  "name": "watchme",
+  "version": "1.0.0",
+  "description": "A watcher process to restart node app",
+  "main": "index.js",
+  "private": true,
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bin": {
+    "watchme": "index.js"
+  },
+  "dependencies": {
+    "caporal": "^1.4.0",
+    "chalk": "^4.1.1",
+    "chokidar": "^3.5.2"
+  }
+}

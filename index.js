@@ -32,7 +32,6 @@ program
 		'node_modules'
 	)
 	.action(async ({ filename = 'index.js' }, { ignore }) => {
-		console.log({ ignore })
 		try {
 			await fs.promises.access(filename)
 		} catch (err) {
